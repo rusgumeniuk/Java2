@@ -25,7 +25,6 @@ public class SimpleData {
             // int rows = statement.executeUpdate("DELETE FROM Products WHERE Id = 3");
             // System.out.printf("%d row(s) deleted", rows);
 
-
         }
         catch(Exception ex){
             System.out.println("Connection failed...");
