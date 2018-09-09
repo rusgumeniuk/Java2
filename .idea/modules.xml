@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java2.iml" filepath="$PROJECT_DIR$/Java2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1SimpleData/Lab1SimpleData.iml" filepath="$PROJECT_DIR$/Lab1SimpleData/Lab1SimpleData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2SimpleUI/Lab2SimpleUI.iml" filepath="$PROJECT_DIR$/Lab2SimpleUI/Lab2SimpleUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab3IoC_JPA_REST/Lab3IoC_JPA_REST.iml" filepath="$PROJECT_DIR$/Lab3IoC_JPA_REST/Lab3IoC_JPA_REST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab4Server-sideUI_Client-sideUI/Lab4Server-sideUI_Client-sideUI.iml" filepath="$PROJECT_DIR$/Lab4Server-sideUI_Client-sideUI/Lab4Server-sideUI_Client-sideUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab5Security/Lab5Security.iml" filepath="$PROJECT_DIR$/Lab5Security/Lab5Security.iml" />
+    </modules>
+  </component>
+</project>
