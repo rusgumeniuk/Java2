@@ -38,7 +38,7 @@ public class StudentJdbcDao implements StudentDao{
         Properties props = new Properties();
         try (InputStream in =
                      new FileInputStream(
-                             new File("C://Users//Omman//Desktop//Development//Java2+//Lab1SimpleData//src//simpleData//database.properties")
+                             new File("resources/database.properties")
                      )
         )
         {
