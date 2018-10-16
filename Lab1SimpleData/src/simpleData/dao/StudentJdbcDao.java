@@ -14,6 +14,7 @@ import java.util.Properties;
 import java.util.UUID;
 
 public class StudentJdbcDao implements StudentDao{
+
     private final String INSERT = "insert into students(id, name, birthDay) values(?,?,?)";
     private final String GET_BY_ID = "select * from students where id = ?";
     private final String UPDATE = "update students set name = ?, birthDay = ? where id = ?";
@@ -155,6 +156,7 @@ public class StudentJdbcDao implements StudentDao{
             }
         }
     }
+
     @Override
     public void truncate(){
         if(isConnected()) {
