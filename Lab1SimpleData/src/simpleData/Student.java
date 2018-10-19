@@ -4,6 +4,7 @@ import java.sql.Date;
 import java.util.UUID;
 
 public class Student {
+
     private UUID id;
     private String name;
     private Date birthDay;
@@ -17,10 +18,7 @@ public class Student {
         this();
         setName(name);
     }
-    public Student(String name, Date birthDay){
-        this(name);
-        setBirthDay(birthDay);
-    }
+
     public Student(UUID id, String name, Date birthDay){
         setId(id);
         setName(name);
@@ -56,7 +54,6 @@ public class Student {
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         if(name != null && !name.trim().isEmpty()){
             this.name = name;
@@ -66,7 +63,6 @@ public class Student {
     public Date getBirthDay() {
         return birthDay;
     }
-
     public void setBirthDay(Date birthDay) {
         if(birthDay == null){
             this.birthDay = new Date(System.currentTimeMillis());
@@ -85,7 +81,7 @@ public class Student {
     public boolean equals(Object obj) {
         if (!(obj instanceof Student)) return false;
         Student compareStudent = (Student) obj;
-        return getId() == compareStudent.getId() && getName().equals(compareStudent.getName());
+        return getId().equals(compareStudent.getId()) && getName().trim().equals(compareStudent.getName().trim());
     }
 
     @Override
