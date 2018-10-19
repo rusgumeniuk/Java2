@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eef0e954-1a03-4944-91ad-e3ac4345712c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab1SimpleData/resources/database.properties" afterDir="false" />
+    <list default="true" id="eef0e954-1a03-4944-91ad-e3ac4345712c" name="Default" comment="Refactored all tests. Tests are passed">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mongo_java_driver_3_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1SimpleData/resources/mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mongo4idea_0_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentJdbcDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentJdbcDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/database.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1SimpleData/Lab1SimpleData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1SimpleData/Lab1SimpleData.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1SimpleData/resources/database.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Lab1SimpleData/resources/mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/models/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/SimpleData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/SimpleData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/dao/Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/dao/Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/dao/StudentDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/dao/StudentJdbcDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/dao/StudentJdbcDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/dao/StudentNoSqlDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab1SimpleData/simpleData/dao/StudentNoSqlDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1SimpleData/simpleData/dao/StudentJdbcDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab1SimpleData/simpleData/dao/StudentJdbcDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Lab1SimpleData/simpleData/dao/StudentNoSqlDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Lab1SimpleData/simpleData/dao/StudentNoSqlDaoTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,36 +102,16 @@
       <file leaf-file-name="StudentJdbcDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentJdbcDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+            <state relative-caret-position="392">
+              <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#StudentJdbcDao#0;class#StudentJdbcDao#0" />
                 <element signature="method#closeConnection#0;class#StudentJdbcDao#0" />
-                <element signature="method#insert#0;class#StudentJdbcDao#0" />
-                <element signature="method#update#0;class#StudentJdbcDao#0" />
-                <element signature="method#getById#0;class#StudentJdbcDao#0" />
-                <element signature="method#getAll#0;class#StudentJdbcDao#0" />
                 <element signature="method#delete#0;class#StudentJdbcDao#0" />
                 <element signature="method#truncate#0;class#StudentJdbcDao#0" />
-                <element signature="method#isConnected#0;class#StudentJdbcDao#0" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentJdbcDaoTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1SimpleData/tests/simpleData/dao/StudentJdbcDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab1SimpleData/resources/database.properties">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -125,15 +119,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>drop</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -146,7 +147,6 @@
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/MyClass.java" />
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/database.propereties" />
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/ITrain.java" />
-        <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/SimpleData.java" />
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/Models/Base.java" />
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/Dao/DB_Type.java" />
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/Dao/DaoFactory.java" />
@@ -157,8 +157,15 @@
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/Models/Student.java" />
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/Dao/StudentJdbcDao.java" />
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/Dao/StudentNoSqlDao.java" />
-        <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentNoSqlDao.java" />
+        <option value="$PROJECT_DIR$/Lab1SimpleData/resources/mongo.properties" />
+        <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/Dao.java" />
+        <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/SimpleData.java" />
+        <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentJdbcDao.java" />
+        <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentNoSqlDao.java" />
+        <option value="$PROJECT_DIR$/Lab1SimpleData/src/simpleData/Student.java" />
+        <option value="$PROJECT_DIR$/Lab1SimpleData/tests/simpleData/dao/StudentJdbcDaoTest.java" />
+        <option value="$PROJECT_DIR$/Lab1SimpleData/tests/simpleData/dao/StudentNoSqlDaoTest.java" />
       </list>
     </option>
   </component>
@@ -169,9 +176,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="950" />
+    <option name="width" value="979" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -179,8 +186,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,32 +204,79 @@
             <path>
               <item name="Java2Web" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java2Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1SimpleData" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java2Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1SimpleData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java2Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1SimpleData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java2Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1SimpleData" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleData" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java2Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1SimpleData" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java2Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java2Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab1SimpleData" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java2Web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
-    <property name="last_opened_file_path" value="C:/mysql-connector-java-8.0.12" />
+    <property name="last_opened_file_path" value="C:/mongodb/mongo-java-driver-3.8.2.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.21894005" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.40229884" />
+    <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="simpleData.dao" />
       <recent name="Lab1SimpleData.SimpleDataTests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Omman\Desktop\Development\IdeaProjects\Java2Web\resources" />
+      <recent name="C:\Users\Omman\Desktop\Development\Java2\Jaba2\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Omman\Desktop\Development\IdeaProjects\Java2Web\Lab1SimpleData\resources" />
@@ -229,13 +284,6 @@
       <recent name="C:\Users\Omman\Desktop\Development\Java2\Lab4Server-sideUI_Client-sideUI" />
       <recent name="C:\Users\Omman\Desktop\Development\Java2\Lab3IoC_JPA_REST" />
       <recent name="C:\Users\Omman\Desktop\Development\Java2\Lab2SimpleUI" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Omman\Desktop\Development\IdeaProjects\Java2Web\resources" />
-      <recent name="C:\Users\Omman\Desktop\Development\Java2\Jaba2\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -250,33 +298,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentJdbcDaoTest">
-    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleData.MyClass" />
-      <module name="Lab1SimpleData" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simpleData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SimpleData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simpleData.SimpleData" />
-      <module name="Lab1SimpleData" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simpleData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.simpleData.dao in Lab1SimpleData">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="StudentJdbcDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentJdbcDaoTest and 1 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab1SimpleData" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="pattern" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns>
+        <pattern testClass="simpleData.dao.StudentJdbcDaoTest" />
+        <pattern testClass="simpleData.dao.StudentNoSqlDaoTest" />
+      </patterns>
+    </configuration>
+    <configuration name="StudentNoSqlDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab1SimpleData" />
       <extension name="coverage">
         <pattern>
@@ -287,9 +333,55 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="simpleData.dao" />
-      <option name="MAIN_CLASS_NAME" value="simpleData.dao.StudentJdbcDaoTest" />
+      <option name="MAIN_CLASS_NAME" value="simpleData.dao.StudentNoSqlDaoTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StudentNoSqlDaoTest.drop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab1SimpleData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleData.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="simpleData.dao" />
+      <option name="MAIN_CLASS_NAME" value="simpleData.dao.StudentNoSqlDaoTest" />
+      <option name="METHOD_NAME" value="drop" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StudentNoSqlDaoTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab1SimpleData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleData.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="simpleData.dao" />
+      <option name="MAIN_CLASS_NAME" value="simpleData.dao.StudentNoSqlDaoTest" />
+      <option name="METHOD_NAME" value="update" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -306,6 +398,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="simpleData.dao in Lab1SimpleData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab1SimpleData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simpleData.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="simpleData.dao" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -338,15 +453,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MyClass" />
-      <item itemvalue="Application.SimpleData" />
-      <item itemvalue="JUnit.StudentJdbcDaoTest" />
+      <item itemvalue="JUnit.StudentNoSqlDaoTest" />
+      <item itemvalue="JUnit.StudentNoSqlDaoTest.drop" />
+      <item itemvalue="JUnit.StudentNoSqlDaoTest.update" />
+      <item itemvalue="JUnit.StudentJdbcDaoTest and 1 more" />
+      <item itemvalue="JUnit.simpleData.dao in Lab1SimpleData" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentJdbcDaoTest" />
-        <item itemvalue="Application.SimpleData" />
-        <item itemvalue="Application.MyClass" />
+        <item itemvalue="JUnit.simpleData.dao in Lab1SimpleData" />
+        <item itemvalue="JUnit.StudentJdbcDaoTest and 1 more" />
+        <item itemvalue="JUnit.StudentNoSqlDaoTest" />
+        <item itemvalue="JUnit.StudentNoSqlDaoTest.update" />
+        <item itemvalue="JUnit.StudentNoSqlDaoTest.drop" />
       </list>
     </recent_temporary>
   </component>
@@ -396,27 +515,88 @@
       <option name="project" value="LOCAL" />
       <updated>1539719419205</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created folder resources.&#10;Mover database.propereties to resources.">
+      <created>1539720088548</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1539720088548</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Removed method truncate()">
+      <created>1539979566270</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539979566270</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changed path to property file. small refact">
+      <created>1539979726989</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539979726989</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implemented StudentDao and added method drop()">
+      <created>1539979936570</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539979936570</updated>
+    </task>
+    <task id="LOCAL-00010" summary="some using">
+      <created>1539980002235</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1539980002235</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Refactored equals. small refactoring">
+      <created>1539980098694</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1539980098694</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Refactored all tests. Tests are passed">
+      <created>1539980266120</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1539980266120</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StudentJdbcDaoTest - 2018.10.16 at 22h 45m 16s.xml">
-      <configuration name="StudentJdbcDaoTest" configurationId="JUnit" />
+    <history-entry file="StudentNoSqlDaoTest_update - 2018.10.19 at 22h 55m 08s.xml">
+      <configuration name="StudentNoSqlDaoTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentJdbcDaoTest - 2018.10.16 at 22h 45m 58s.xml">
-      <configuration name="StudentJdbcDaoTest" configurationId="JUnit" />
+    <history-entry file="StudentNoSqlDaoTest_update - 2018.10.19 at 22h 56m 23s.xml">
+      <configuration name="StudentNoSqlDaoTest.update" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentJdbcDaoTest - 2018.10.16 at 22h 47m 09s.xml">
-      <configuration name="StudentJdbcDaoTest" configurationId="JUnit" />
+    <history-entry file="StudentNoSqlDaoTest - 2018.10.19 at 22h 56m 43s.xml">
+      <configuration name="StudentNoSqlDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentJdbcDaoTest - 2018.10.16 at 22h 53m 20s.xml">
-      <configuration name="StudentJdbcDaoTest" configurationId="JUnit" />
+    <history-entry file="StudentNoSqlDaoTest - 2018.10.19 at 22h 58m 37s.xml">
+      <configuration name="StudentNoSqlDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentJdbcDaoTest - 2018.10.16 at 22h 57m 39s.xml">
-      <configuration name="StudentJdbcDaoTest" configurationId="JUnit" />
+    <history-entry file="StudentNoSqlDaoTest - 2018.10.19 at 22h 59m 30s.xml">
+      <configuration name="StudentNoSqlDaoTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StudentJdbcDaoTest - 2018.10.16 at 22h 58m 55s.xml">
-      <configuration name="StudentJdbcDaoTest" configurationId="JUnit" />
+    <history-entry file="StudentNoSqlDaoTest - 2018.10.19 at 23h 01m 50s.xml">
+      <configuration name="StudentNoSqlDaoTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentJdbcDaoTest_and_1_more - 2018.10.19 at 23h 02m 42s.xml">
+      <configuration name="StudentJdbcDaoTest and 1 more" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleData_dao_in_Lab1SimpleData - 2018.10.19 at 23h 03m 56s.xml">
+      <configuration name="simpleData.dao in Lab1SimpleData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleData_dao_in_Lab1SimpleData - 2018.10.19 at 23h 11m 53s.xml">
+      <configuration name="simpleData.dao in Lab1SimpleData" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleData_dao_in_Lab1SimpleData - 2018.10.19 at 23h 17m 33s.xml">
+      <configuration name="simpleData.dao in Lab1SimpleData" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -430,39 +610,70 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935917" />
       <window_info id="DB Browser" order="2" weight="0.3295302" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32842416" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.41879195" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30633286" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.37260678" />
-      <window_info anchor="right" id="Mongo Explorer" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.8432732" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3431517" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.1089838" />
+      <window_info anchor="right" id="Mongo Explorer" order="4" weight="0.46442953" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3240059" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.47449663" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.20604026" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.33578792" />
       <window_info id="Structure" order="1" sideWeight="0.5016892" side_tool="true" weight="0.24291939" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info id="Favorites" order="2" sideWeight="0.5016892" side_tool="true" weight="0.24291939" />
       <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32905984" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Thumbnails" order="7" weight="0.32905984" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3431517" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="DB Browser" order="4" weight="0.3295302" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5016892" side_tool="true" weight="0.24291939" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3240059" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Mongo Explorer" order="8" weight="0.46442953" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983108" weight="0.20604026" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.1089838" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.8432732" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33681074" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32935917" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32935917" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" sideWeight="0.5016892" side_tool="true" weight="0.24291939" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39911634" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -497,11 +708,19 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="intel commit" />
     <MESSAGE value="small refact" />
-    <option name="LAST_COMMIT_MESSAGE" value="small refact" />
+    <MESSAGE value="Created folder resources.&#10;Mover database.propereties to resources." />
+    <MESSAGE value="Removed method truncate()" />
+    <MESSAGE value="Changed path to property file" />
+    <MESSAGE value="Changed path to property file. small refact" />
+    <MESSAGE value="Implemented StudentDao and added method drop()" />
+    <MESSAGE value="some using" />
+    <MESSAGE value="Refactored equals. small refactoring" />
+    <MESSAGE value="Refactored all tests. Tests are passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored all tests. Tests are passed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="139" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -509,40 +728,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentNoSqlDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/DaoFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/DaoFactory.java" />
     <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentNoSqlDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
@@ -554,17 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#Student#2;class#Student#0" />
-            <element signature="method#Student#3;class#Student#0" />
-            <element signature="method#Student#4;class#Student#0" />
-            <element signature="method#setName#0;class#Student#0" />
-            <element signature="method#setGroupId#0;class#Student#0" />
-            <element signature="method#setBirthdayDate#0;class#Student#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,15 +763,9 @@
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#StudentJdbcDao#0;class#StudentJdbcDao#0" />
             <element signature="method#closeConnection#0;class#StudentJdbcDao#0" />
-            <element signature="method#insert#0;class#StudentJdbcDao#0" />
-            <element signature="method#update#0;class#StudentJdbcDao#0" />
-            <element signature="method#getById#0;class#StudentJdbcDao#0" />
-            <element signature="method#getAll#0;class#StudentJdbcDao#0" />
             <element signature="method#delete#0;class#StudentJdbcDao#0" />
             <element signature="method#truncate#0;class#StudentJdbcDao#0" />
-            <element signature="method#isConnected#0;class#StudentJdbcDao#0" />
           </folding>
         </state>
       </provider>
@@ -715,27 +891,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/Models/Base.java" />
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/models/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Student#0;class#Student#0" />
-            <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#Student#2;class#Student#0" />
-            <element signature="method#Student#3;class#Student#0" />
-            <element signature="method#Student#4;class#Student#0" />
-            <element signature="method#setName#0;class#Student#0" />
-            <element signature="method#setGroupId#0;class#Student#0" />
-            <element signature="method#setBirthdayDate#0;class#Student#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/DB_Type.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -743,55 +898,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/DaoFactory.java">
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/DaoFactory.java" />
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/Dao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentNoSqlDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/SimpleData.java">
+    <entry file="jar://C:/mongodb/mongo-java-driver-3.8.2.jar!/com/mongodb/client/MongoCollection.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="250" column="13" selection-start-line="250" selection-start-column="9" selection-end-line="250" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/Dao.java">
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/models/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="137">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
           <folding>
-            <element signature="method#Student#0;class#Student#0" />
             <element signature="method#Student#1;class#Student#0" />
-            <element signature="method#Student#2;class#Student#0" />
             <element signature="method#Student#3;class#Student#0" />
             <element signature="method#Student#4;class#Student#0" />
             <element signature="method#setId#0;class#Student#0" />
@@ -804,31 +945,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/tests/simpleData/dao/StudentJdbcDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/SimpleData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentNoSqlDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="921">
+          <caret line="96" column="10" lean-forward="true" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#StudentNoSqlDao#0;class#StudentNoSqlDao#0" />
+            <element signature="method#closeConnection#0;class#StudentNoSqlDao#0" />
+            <element signature="method#drop#0;class#StudentNoSqlDao#0" />
+            <element signature="method#getById#0;class#StudentNoSqlDao#0" />
+            <element signature="method#update#0;class#StudentNoSqlDao#0" />
+            <element signature="method#delete#0;class#StudentNoSqlDao#0" />
+            <element signature="method#toDocument#0;class#StudentNoSqlDao#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/tests/simpleData/dao/StudentJdbcDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding>
+            <element signature="method#truncate#0;class#StudentJdbcDaoTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/tests/simpleData/dao/StudentNoSqlDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding>
+            <element signature="method#setUp#0;class#StudentNoSqlDaoTest#0" />
+            <element signature="method#tearDown#0;class#StudentNoSqlDaoTest#0" />
+            <element signature="method#insert#0;class#StudentNoSqlDaoTest#0" />
+            <element signature="method#getById#0;class#StudentNoSqlDaoTest#0" />
+            <element signature="method#update#0;class#StudentNoSqlDaoTest#0" />
+            <element signature="method#delete#0;class#StudentNoSqlDaoTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/resources/mongo.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab1SimpleData/resources/mysql.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="75" lean-forward="true" selection-start-column="75" selection-end-column="75" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab1SimpleData/src/simpleData/dao/StudentJdbcDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
+        <state relative-caret-position="392">
+          <caret line="50" column="34" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#StudentJdbcDao#0;class#StudentJdbcDao#0" />
             <element signature="method#closeConnection#0;class#StudentJdbcDao#0" />
-            <element signature="method#insert#0;class#StudentJdbcDao#0" />
-            <element signature="method#update#0;class#StudentJdbcDao#0" />
-            <element signature="method#getById#0;class#StudentJdbcDao#0" />
-            <element signature="method#getAll#0;class#StudentJdbcDao#0" />
             <element signature="method#delete#0;class#StudentJdbcDao#0" />
             <element signature="method#truncate#0;class#StudentJdbcDao#0" />
-            <element signature="method#isConnected#0;class#StudentJdbcDao#0" />
           </folding>
         </state>
       </provider>
@@ -842,7 +1030,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21894005" />
               </list>
             </option>
           </splitter-proportions>
@@ -854,7 +1042,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21894005" />
               </list>
             </option>
           </splitter-proportions>
@@ -865,7 +1053,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21894005" />
               </list>
             </option>
           </splitter-proportions>
@@ -873,11 +1061,11 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>9.0</last-edited>
+          <last-edited>10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.21894005" />
               </list>
             </option>
           </splitter-proportions>
@@ -889,7 +1077,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.21894005" />
+                <option value="0.40229884" />
               </list>
             </option>
           </splitter-proportions>
@@ -897,11 +1085,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>mysql-connector-java-8.0</last-edited>
+          <last-edited>mongo-java-driver-3.8.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.21894005" />
+                <option value="0.40229884" />
               </list>
             </option>
           </splitter-proportions>
