@@ -34,11 +34,11 @@ public class StudentJdbcDao implements StudentDao{
         }
     }
 
-    public static Connection getConnection() throws SQLException, IOException {
+    private static Connection getConnection() throws SQLException, IOException {
         Properties props = new Properties();
         try (InputStream in =
                      new FileInputStream(
-                             new File("resources/database.properties")
+                             new File("resources/mysql.properties")
                      )
         )
         {
@@ -157,7 +157,6 @@ public class StudentJdbcDao implements StudentDao{
         }
     }
 
-    @Override
     public void truncate(){
         if(isConnected()) {
             try{
