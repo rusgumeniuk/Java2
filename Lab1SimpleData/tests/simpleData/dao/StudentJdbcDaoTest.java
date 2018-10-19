@@ -8,9 +8,9 @@ import simpleData.Student;
 
 public class StudentJdbcDaoTest {
 
-    StudentJdbcDao studentJdbcDao;
-    Student firstStudent;
-    Student secondStudent;
+    private StudentJdbcDao studentJdbcDao;
+    private Student firstStudent;
+    private Student secondStudent;
 
     @Before
     public void setUp() {
@@ -61,15 +61,13 @@ public class StudentJdbcDaoTest {
     public void delete() {
         studentJdbcDao.delete(firstStudent);
         Assert.assertNull(studentJdbcDao.getById(firstStudent.getId()));
-        Assert.assertTrue(studentJdbcDao.getAll().size() == 1);
+        Assert.assertEquals(1, studentJdbcDao.getAll().size());
     }
 
     @Test
     public void truncate(){
         Assert.assertTrue(studentJdbcDao.getAll().size() > 0);
-
         studentJdbcDao.truncate();
-
-        Assert.assertTrue(studentJdbcDao.getAll().size() == 0);
+        Assert.assertEquals(0, studentJdbcDao.getAll().size());
     }
 }
